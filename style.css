@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+body{
+    background-color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Header Start */
+.header{ 
+    background: url(img/banner.jpg);
+    width: 100%;
+    position: relative;
+
+}
+.header img{
+    margin-top: 0.8%;
+    margin-left: 1%;
+    height: 90px;
+    width: 90px;
+    min-height: 40px;
+    min-width: 40px;
+    background: url(img/banner3.jpg);
+    background-size: 90px 90px;
+    float: left;
+    
+}
+.htxt{
+    margin-left: 40%;
+    color: #000000;
+    padding: 10px;
+    font-family: 'Lobster' ;
+}
+/* Header End */
+hr{
+    color: white;
+    width: 100%;
+    margin-top: -8%;
+}
+/* Menu Start */
+.menu h1{
+    color: white;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-right: 88px;
+    padding-left: 88px;
+    background-color: #ff0000;
+}
+.menu h1:hover{
+    background-color:green;
+}
+span{
+    color: rgb(44, 238, 18);
+    font-family: 'Trade Winds';
+}
+a{
+    text-decoration: none;
+}
+.content p{
+    color: white;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 23px;
+}
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+/* Profile Start */
+
+.profile{
+    background-color: rgb(172, 13, 13);
+    text-align: center;
+    color: white;
+}
+.pic h2{
+    color: lime;
+    text-align: center;
+    margin-bottom: -5%;
+    margin-top: 3%;
+    font-family: 'Akronim';
+    font-size: 64px;
+    
+}
+.pic .img{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    float: left;
+    padding: 25px;
+    
+    filter: opacity(100%);
+    border:5px solid green ;
+}
+.pic .img::after{
+    content: "";
+  background: url(img/home-banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 20%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.pic .img:hover{
+    filter: opacity(100%);
+    color: white;
+    border:5px solid green ;
+}
+.bio{
+    color: white;
+    float: right;
+    text-align: left ;
+    font-size: 15px;
+    padding-left: 50px;
+    
+}
+/*Profile End*/
+.social img{
+    height: 40px;
+    width: 50px;
+    padding: 1px;
+    border-radius: 80%;
+    margin-bottom: -1.25%;
+}
